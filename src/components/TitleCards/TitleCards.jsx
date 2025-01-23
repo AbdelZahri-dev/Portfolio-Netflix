@@ -4,6 +4,7 @@ import cards_data from '../../assets/cards/Cards_data.js'
 
 
 
+
 const TitleCards = ({title, category}) => {
 
   const cardsRef = useRef();
@@ -25,7 +26,7 @@ const TitleCards = ({title, category}) => {
   return (
     <div className='title-cards'>
       
-      <h2>{title?title:"Mes séries préférées"}</h2>
+      <h2>{title?title:"Mes séries"}</h2>
       <div className="card-list" ref={cardsRef}>
       {cards_data.map((card, index)=>{
         return <div className="card" key={index}>

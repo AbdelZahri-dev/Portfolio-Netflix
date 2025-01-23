@@ -14,21 +14,31 @@ import card_img14 from './card14.jpg';
 
 const cards_data_hard = [
     
-    {
-        image:card_img2,
-        name:"Squid Game"
-    },
+   
 
     {
         image:card_img1,
         name:"Kung Fu Panda"
     },
+
     {
+        image:card_img2,
+        name:"Squid Game"
+    },
+
+
+
+
+
+   {
         image:card_img4,
         name:"Stranger Things"
     },
     {
         image:card_img3,
+     
+     
+     
         name:"Squid Challange"
     },
     

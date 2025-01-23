@@ -1,33 +1,32 @@
 import React from 'react'
 import './Footer.css'
-import youtube_icon from '../../assets/youtube_icon.png'
-import twitter_icon from '../../assets/twitter_icon.png'
-import instagram_icon from '../../assets/instagram_icon.png'
-import facebook_icon from '../../assets/facebook_icon.png'
+import github_icon from '../../assets/github_icon.png'
+import linkedin_icon from '../../assets/linkedin_icon.png'
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-icons">
-            <img src={facebook_icon} alt="" />
-            <img src={instagram_icon} alt="" />
-            <img src={twitter_icon} alt="" />
-            <img src={youtube_icon} alt="" />
+          <a href="https://www.linkedin.com/in/abdel-zahri-61093367/" target="_blank" rel="noopener noreferrer"> 
+            <img src={linkedin_icon} alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/AbdelZahri-dev?tab=repositories" target="_blank" rel="noopener noreferrer">
+            <img src={github_icon} alt="GitHub" />
+            </a>
         </div>
-
+        <h2>Compétences</h2> <br />
         <ul>
-        <li>Audio Description</li>
-        <li>Help Centre</li>
-        <li>Gift Cards</li>
-        <li>Media Centre</li>
-        <li>Investor Relations</li>
+        <li>HTML5, CSS3</li>
+        <li>Javascript</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>SQL</li>
         <li>Jobs</li>
-        <li>Terms of Use</li>
-        <li>Privacy</li>
-        <li>Legal Notices</li>
-        <li>Cookie Preferences</li>
-        <li>Corporate Information</li>
-        <li>Contact Us</li>
+        <li>Adobe</li>
+        <li>Figma</li>
+        <li>Canva</li>
+        <li>Blender</li>
+       
 
         </ul>
         <div className="copyright-text"></div>
