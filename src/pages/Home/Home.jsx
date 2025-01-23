@@ -53,15 +53,15 @@ const Home = () => {
       </div>
 
       <div className="more-cards">
-        <div id="blockbuster-movies">
+        <div id="portfolio">
           <Portfolio title={"Portfolio"} />
         </div>
         
-        <div id="only-on-netflix">
+        <div id="dessins">
           <Dessins title={"Dessins"} />
         </div>
-        <div id="top-picks">
-          <Aboutme title={"Aboutme"} />
+        <div id="about-me">
+          <Aboutme title={"About me"} />
         </div>
       </div>
 

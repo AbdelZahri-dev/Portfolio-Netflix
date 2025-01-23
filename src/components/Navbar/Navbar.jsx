@@ -17,9 +17,9 @@ const Navbar = () => {
 <img src={logo} alt="Logo" />
 <ul className='hidden'>
         <li><Link to="hero" spy={true} smooth={true} offset={-80} duration={500}>Home</Link></li>
-          <li><Link to="blockbuster-movies" spy={true} smooth={true} offset={-80} duration={500}>Portfolio</Link></li>
-          <li><Link to="only-on-netflix" spy={true} smooth={true} offset={-80} duration={500}>Dessins graphiques</Link></li>
-          <li><Link to="top-picks" spy={true} smooth={true} offset={-80} duration={500}>Mes passions</Link></li>
+          <li><Link to="portfolio" spy={true} smooth={true} offset={-80} duration={500}>Portfolio</Link></li>
+          <li><Link to="dessins" spy={true} smooth={true} offset={-80} duration={500}>Dessins graphiques</Link></li>
+          <li><Link to="about-me" spy={true} smooth={true} offset={-80} duration={500}>A propos de moi</Link></li>
 
 </ul>
     </div>
